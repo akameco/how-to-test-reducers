@@ -5,25 +5,25 @@ Object {
   "count": -1,
   "text": "",
 }
-`
+`;
 
 exports[`inc 1`] = `
 Object {
   "count": 1,
   "text": "",
 }
-`
+`;
 
 exports[`init 1`] = `
 Object {
   "count": 0,
   "text": "",
 }
-`
+`;
 
 exports[`setText 1`] = `
 Object {
   "count": 0,
   "text": "test",
 }
-`
+`;

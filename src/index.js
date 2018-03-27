@@ -1,12 +1,11 @@
 // @flow
 type Exact<T> = T & $Shape<T>
 
-type State = {
-  count: number,
-  text: string
-}
-
-type Action = { type: 'inc' | 'dec' } | { type: 'setText', payload: string }
+type State = { count: number, text: string }
+type Action =
+  | { type: 'inc' }
+  | { type: 'dec' }
+  | { type: 'setText', payload: string }
 
 export const inc = (): Action => ({ type: 'inc' })
 export const dec = (): Action => ({ type: 'dec' })
@@ -17,10 +16,7 @@ export const setText = (payload: string): Action => ({
 
 export const actions = { inc, dec, setText }
 
-export const initialState = {
-  count: 0,
-  text: ''
-}
+export const initialState = { count: 0, text: '' }
 
 export default (state: State = initialState, action: Action): Exact<State> => {
   switch (action.type) {
@@ -31,6 +27,7 @@ export default (state: State = initialState, action: Action): Exact<State> => {
     case 'setText':
       return { ...state, text: action.payload }
     default:
+      // ;(action: empty)
       return state
   }
 }
