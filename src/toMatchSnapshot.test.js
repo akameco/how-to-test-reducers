@@ -3,7 +3,7 @@ import reducer, { initialState } from '.'
 
 test('init', () => {
   // $FlowFixMe
-  expect(reducer(initialState, { type: '@@INIT' })).toMatchSnapshot()
+  expect(reducer(undefined, { type: '@@INIT' })).toMatchSnapshot()
 })
 
 test('inc', () => {

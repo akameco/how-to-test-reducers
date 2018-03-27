@@ -1,6 +1,6 @@
 // @flow
 import reducerTester from 'reducer-tester'
-import reducer, { initialState, actions } from '.'
+import reducer, { initialState } from '.'
 
 reducerTester({
   reducer,

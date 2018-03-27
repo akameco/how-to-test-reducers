@@ -5,7 +5,7 @@ import reducer, { initialState } from '.'
 test('init', () => {
   expect(
     // $FlowFixMe
-    snapshotDiff(initialState, reducer(initialState, { type: '@@INIT' }))
+    snapshotDiff(initialState, reducer(undefined, { type: '@@INIT' }))
   ).toMatchSnapshot()
 })
 
