@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@@INIT 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`dec 1`] = `
+"Snapshot Diff:
+- Before
++ After
+
+  Object {
+-   \\"count\\": 0,
++   \\"count\\": -1,
+    \\"text\\": \\"\\",
+  }"
+`;
+
+exports[`inc 1`] = `
+"Snapshot Diff:
+- Before
++ After
+
+  Object {
+-   \\"count\\": 0,
++   \\"count\\": 1,
+    \\"text\\": \\"\\",
+  }"
+`;
+
+exports[`setText 1`] = `
+"Snapshot Diff:
+- Before
++ After
+
+  Object {
+    \\"count\\": 0,
+-   \\"text\\": \\"\\",
++   \\"text\\": \\"test\\",
+  }"
+`;
