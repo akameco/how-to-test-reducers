@@ -1,10 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`@@INIT 1`] = `
-"Snapshot Diff:
-Compared values have no visual difference."
-`;
-
 exports[`dec 1`] = `
 "Snapshot Diff:
 - Before
@@ -15,6 +10,11 @@ exports[`dec 1`] = `
 +   \\"count\\": -1,
     \\"text\\": \\"\\",
   }"
+`;
+
+exports[`handle initial state 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
 `;
 
 exports[`inc 1`] = `

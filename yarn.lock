@@ -3054,9 +3054,9 @@ realpath-native@^1.0.0:
   dependencies:
     util.promisify "^1.0.0"
 
-reducer-tester@0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/reducer-tester/-/reducer-tester-0.2.0.tgz#50c551e2751cf7ed8d1fc0f207674938e2549e75"
+reducer-tester@0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/reducer-tester/-/reducer-tester-0.4.0.tgz#0ccc8c7ac6c2d73feba168a752f7d7bceaf4d6bb"
   dependencies:
     snapshot-diff "^0.3.0"
 

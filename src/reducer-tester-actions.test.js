@@ -5,10 +5,5 @@ import reducer, { initialState, actions } from '.'
 reducerTester({
   reducer,
   state: initialState,
-  tests: [
-    { type: '@@INIT' },
-    actions.inc(),
-    actions.dec(),
-    actions.setText('test')
-  ]
+  tests: [actions.inc(), actions.dec(), actions.setText('test')]
 })

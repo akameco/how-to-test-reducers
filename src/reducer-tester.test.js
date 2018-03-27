@@ -6,7 +6,6 @@ reducerTester({
   reducer,
   state: initialState,
   tests: [
-    { type: '@@INIT' },
     { type: 'inc' },
     { type: 'dec' },
     { type: 'setText', payload: 'test' }
