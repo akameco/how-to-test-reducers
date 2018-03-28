@@ -79,7 +79,7 @@ exports[`inc 1`] = `
 reducerTester({
   reducer,
   state: initialState,
-  tests: [{ type: 'inc' }, { type: 'dec' }] // Jest add any action...
+  tests: [{ type: 'inc' }, { type: 'dec' }] // Just add any action...
 })
 ```
 
