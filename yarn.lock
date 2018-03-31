@@ -1758,7 +1758,7 @@ ini@~1.3.0:
   version "1.3.5"
   resolved "https://registry.yarnpkg.com/ini/-/ini-1.3.5.tgz#eee25f56db1c9ec6085e0c22778083f596abf927"
 
-invariant@^2.2.2:
+invariant@^2.2.2, invariant@^2.2.4:
   version "2.2.4"
   resolved "https://registry.yarnpkg.com/invariant/-/invariant-2.2.4.tgz#610f3c92c9359ce1db616e538008d23ff35158e6"
   dependencies:
@@ -3054,10 +3054,11 @@ realpath-native@^1.0.0:
   dependencies:
     util.promisify "^1.0.0"
 
-reducer-tester@0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/reducer-tester/-/reducer-tester-0.4.0.tgz#0ccc8c7ac6c2d73feba168a752f7d7bceaf4d6bb"
+reducer-tester@0.7.0:
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/reducer-tester/-/reducer-tester-0.7.0.tgz#2667e2c883bdbbf5afc267d004b6a9d4457992b7"
   dependencies:
+    invariant "^2.2.4"
     snapshot-diff "^0.3.0"
 
 redux:

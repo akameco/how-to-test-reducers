@@ -17,7 +17,7 @@
     "babel-preset-zero": "^0.1.0",
     "flow-bin": "^0.68.0",
     "jest": "^22.4.3",
-    "reducer-tester": "0.4.0",
+    "reducer-tester": "0.7.0",
     "snapshot-diff": "^0.3.0"
   }
 }

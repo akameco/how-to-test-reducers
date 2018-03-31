@@ -1,42 +1,42 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`dec 1`] = `
-"Snapshot Diff:
+Snapshot Diff:
 - Before
 + After
 
   Object {
--   \\"count\\": 0,
-+   \\"count\\": -1,
-    \\"text\\": \\"\\",
-  }"
+-   "count": 0,
++   "count": -1,
+    "text": "",
+  }
 `;
 
 exports[`handle initial state 1`] = `
-"Snapshot Diff:
-Compared values have no visual difference."
+Snapshot Diff:
+Compared values have no visual difference.
 `;
 
 exports[`inc 1`] = `
-"Snapshot Diff:
+Snapshot Diff:
 - Before
 + After
 
   Object {
--   \\"count\\": 0,
-+   \\"count\\": 1,
-    \\"text\\": \\"\\",
-  }"
+-   "count": 0,
++   "count": 1,
+    "text": "",
+  }
 `;
 
 exports[`setText 1`] = `
-"Snapshot Diff:
+Snapshot Diff:
 - Before
 + After
 
   Object {
-    \\"count\\": 0,
--   \\"text\\": \\"\\",
-+   \\"text\\": \\"test\\",
-  }"
+    "count": 0,
+-   "text": "",
++   "text": "test",
+  }
 `;
