@@ -87,15 +87,15 @@ snapshot:
 
 ```diff
 exports[`inc 1`] = `
-"Snapshot Diff:
+Snapshot Diff:
 - Before
 + After
 
   Object {
--   \\"count\\": 0,
-+   \\"count\\": 1,
-    \\"text\\": \\"\\",
-  }"
+-   "count": 0,
++   "count": 1,
+    "text": "",
+  }
 `;
 ```
 
