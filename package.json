@@ -10,14 +10,14 @@
   "author": "akameco <akameco.t@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "redux": "^3.7.2"
+    "redux": "^4.0.1"
   },
   "devDependencies": {
-    "babel-jest": "^22.4.3",
-    "babel-preset-zero": "^0.1.0",
-    "flow-bin": "^0.68.0",
-    "jest": "^22.4.3",
-    "reducer-tester": "0.7.0",
-    "snapshot-diff": "^0.3.0"
+    "babel-jest": "24.1.0",
+    "babel-preset-zero": "0.7.0",
+    "flow-bin": "0.92.1",
+    "jest": "24.1.0",
+    "reducer-tester": "1.1.0",
+    "snapshot-diff": "0.5.0"
   }
 }
